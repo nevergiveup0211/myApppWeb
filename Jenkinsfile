@@ -7,5 +7,11 @@ node{
   }
   stage('Email Notification'){
     
-    mail bcc: '', body: 'Maven Jenkins file', cc: '', from: '', replyTo: '', subject: 'Jenkins file', to: 'nevergiveup0211@gmail.com'
+    mail bcc: '', body: '''Hi Sir/madam
+
+Please find an attachment
+
+Thanks&Regards
+Chiranjeevi Manchala
+''', cc: '', from: '', replyTo: '', subject: 'Jenkins file', to: 'nevergiveup0211@gmail.com'
   }
